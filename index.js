@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
   res.send('Welcome to my api');
 })
 
-app.post('/post', (req,res) => {
+app.post('', (req,res) => {
   var data = req.body;
 
 var smtpTransport = nodemailer.createTransport({
